@@ -1,0 +1,222 @@
+[gd_scene format=3 uid="uid://1s5pxctxigj6"]
+
+[ext_resource type="Theme" uid="uid://fokx2du4r6xh" path="res://Graphics/Menu/MainMenu.tres" id="1_8lvcq"]
+[ext_resource type="Script" uid="uid://biirb7xleac5k" path="res://Graphics/Menu/Options.gd" id="2"]
+[ext_resource type="FontFile" uid="uid://bug6bdct05sxs" path="res://Graphics/Menu/ARIAL.TTF" id="3"]
+[ext_resource type="Texture2D" uid="uid://7803jgbep2ue" path="res://Graphics/backrooms/Oficina - copia.png" id="3_k6eyb"]
+[ext_resource type="PackedScene" uid="uid://42q6vd88na6l" path="res://fade_in/FadeIn.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://dok3pjh1bn7q7" path="res://Graphics/Menu/UISound.tscn" id="6"]
+
+[sub_resource type="FontFile" id="1"]
+fallbacks = Array[Font]([ExtResource("3")])
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+
+[sub_resource type="FontFile" id="2"]
+fallbacks = Array[Font]([ExtResource("3")])
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+
+[sub_resource type="FontFile" id="3"]
+fallbacks = Array[Font]([ExtResource("3")])
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+
+[sub_resource type="FontFile" id="FontFile_30wuu"]
+fallbacks = Array[Font]([ExtResource("3")])
+cache/0/variation_coordinates = {}
+cache/0/face_index = 0
+cache/0/embolden = 0.0
+cache/0/transform = Transform2D(1, 0, 0, 1, 0, 0)
+cache/0/spacing_top = 0
+cache/0/spacing_bottom = 0
+cache/0/spacing_space = 0
+cache/0/spacing_glyph = 0
+cache/0/baseline_offset = 0.0
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/50/0/ascent = 0.0
+cache/0/50/0/descent = 0.0
+cache/0/50/0/underline_position = 0.0
+cache/0/50/0/underline_thickness = 0.0
+cache/0/50/0/scale = 1.0
+cache/0/50/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/50/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/50/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+
+[node name="Options" type="Control" unique_id=210344466]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_8lvcq")
+script = ExtResource("2")
+
+[node name="background" type="Sprite2D" parent="." unique_id=445338397]
+position = Vector2(961.75, 753.75)
+scale = Vector2(1.4069597, 1.9641461)
+texture = ExtResource("3_k6eyb")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1165406487]
+layout_mode = 0
+offset_left = 301.0
+offset_top = 127.0
+offset_right = 1678.0
+offset_bottom = 927.0
+size_flags_horizontal = 0
+size_flags_vertical = 0
+alignment = 1
+
+[node name="Title" type="Label" parent="VBoxContainer" unique_id=868337587]
+layout_mode = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+text = "Options"
+horizontal_alignment = 1
+uppercase = true
+
+[node name="Music Sound" type="Label" parent="VBoxContainer" unique_id=444944082]
+layout_mode = 2
+theme_override_fonts/font = SubResource("1")
+text = "Music Volume"
+uppercase = true
+
+[node name="Music_Slider" type="HSlider" parent="VBoxContainer" unique_id=1818827727]
+layout_mode = 2
+size_flags_horizontal = 3
+min_value = -30.0
+max_value = 0.0
+
+[node name="Game Sound" type="Label" parent="VBoxContainer" unique_id=1934759769]
+layout_mode = 2
+theme_override_fonts/font = SubResource("2")
+text = "Game volume"
+uppercase = true
+
+[node name="Game_Slider" type="HSlider" parent="VBoxContainer" unique_id=641562949]
+layout_mode = 2
+size_flags_horizontal = 3
+min_value = -30.0
+max_value = 0.0
+
+[node name="FullScreen" type="Label" parent="VBoxContainer" unique_id=1032630311]
+layout_mode = 2
+size_flags_vertical = 1
+theme_override_fonts/font = SubResource("3")
+text = "Full Screen:"
+uppercase = true
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer/FullScreen" unique_id=284543530]
+layout_mode = 0
+offset_left = 250.0
+offset_top = 5.0
+offset_right = 274.0
+offset_bottom = 29.0
+
+[node name="BackButton" type="Button" parent="VBoxContainer" unique_id=955402736]
+layout_mode = 2
+theme_override_fonts/font = SubResource("FontFile_30wuu")
+text = "BACK"
+flat = true
+
+[node name="FadeIn" parent="." unique_id=741451179 instance=ExtResource("5")]
+visible = false
+layout_mode = 0
+
+[node name="UISound" parent="." unique_id=746378388 instance=ExtResource("6")]
+
+[connection signal="value_changed" from="VBoxContainer/Music_Slider" to="." method="_on_Music_Slider_value_changed"]
+[connection signal="value_changed" from="VBoxContainer/Game_Slider" to="." method="_on_Game_Slider_value_changed"]
+[connection signal="pressed" from="VBoxContainer/FullScreen/CheckBox" to="." method="_on_CheckBox_pressed"]
+[connection signal="pressed" from="VBoxContainer/BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="fade_finished" from="FadeIn" to="." method="_on_FadeIn_fade_finished"]
