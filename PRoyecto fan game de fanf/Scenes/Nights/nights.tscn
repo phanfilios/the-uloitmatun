@@ -511,6 +511,17 @@ camera = NodePath("../../CameraElements")
 wait_time = 3.02
 autostart = true
 
+
+[node name="HUD" type="CanvasLayer" parent="." unique_id=111009001]
+
+[node name="OxygenLabel" type="Label" parent="HUD" unique_id=111009002]
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 360.0
+offset_bottom = 94.0
+text = "Oxígeno: 100%"
+theme_override_font_sizes/font_size = 42
+
 [node name="PerspectiveShader" type="ColorRect" parent="." unique_id=259069941]
 material = SubResource("ShaderMaterial_kco4d")
 offset_left = 18.0
@@ -519,9 +530,9 @@ offset_right = 1936.0
 offset_bottom = 1631.0
 mouse_filter = 2
 
-[connection signal="input_event" from="OfficeElements/Office/Buttons/ButtonExample/Area2D" to="OfficeElements" method="_on_area_2d_input_event"]
-[connection signal="input_event" from="OfficeElements/Office/Buttons/ButtonExample2/Area2D" to="OfficeElements" method="_on_area_2d_input_event"]
-[connection signal="input_event" from="OfficeElements/Office/Buttons/ButtonExample3/Area2D" to="OfficeElements" method="_on_area_2d_input_event"]
+[connection signal="input_event" from="OfficeElements/Office/Buttons/ButtonExample/Area2D" to="OfficeElements" method="_on_area_2d_input_event" binds= [1]]
+[connection signal="input_event" from="OfficeElements/Office/Buttons/ButtonExample2/Area2D" to="OfficeElements" method="_on_area_2d_input_event" binds= [2]]
+[connection signal="input_event" from="OfficeElements/Office/Buttons/ButtonExample3/Area2D" to="OfficeElements" method="_on_area_2d_input_event" binds= [3]]
 [connection signal="animation_finished" from="TabletElements/Tablet_Sprite" to="TabletElements" method="_tablet_animation_finished"]
 [connection signal="mouse_entered" from="TabletElements/Tablet_Button" to="TabletElements" method="_on_tablet_button_hover" binds= [0.5]]
 [connection signal="mouse_exited" from="TabletElements/Tablet_Button" to="TabletElements" method="_on_tablet_button_hover" binds= [0.3]]
